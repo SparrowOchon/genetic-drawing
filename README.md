@@ -1,6 +1,6 @@
 # Genetic Drawing
 The following is a heavily modified version of the original [project](https://github.com/anopara/genetic-drawing) which focuses on the speed
-of runtime and ease of use of the codebase. Changes were made to reduce runtime and code clutter. Additional changes could be made if additional 
+of runtime. Some staggering code clutter was also removed (a lot still remains but should be easier to read now). Additional changes could be made if additional 
 speed is required specifically the use of `pandas` as well as `multiprocessing` pool focusing specifically on the DNA evolution and 
 sampling from DNA will result in the greatest additional boost in performance as `numpy.choice` takes 1/3 of the remaining runtime.
 
