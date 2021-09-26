@@ -1,7 +1,8 @@
 # Genetic Drawing
-This is a toy project I did around 2017 for imitating a drawing process given a target image (inspired by many examples of genetic drawing on the internet, and this was my take on it, mostly as an exercise). 
-
-Due to a popular request, it is now opensource 🙂
+The following is a heavily modified version of the original [project](https://github.com/anopara/genetic-drawing) which focuses on the speed
+of runtime and ease of use of the codebase. Changes were made to reduce runtime and code clutter. Additional changes could be made if additional 
+speed is required specifically the use of `pandas` as well as `multiprocessing` pool focusing specifically on the DNA evolution and 
+sampling from DNA will result in the greatest additional boost in performance as `numpy.choice` takes 1/3 of the remaining runtime.
 
 Examples of generated images:
 
@@ -13,12 +14,12 @@ It also supports user-created sampling masks, in case you'd like to specify regi
 <img src="imgs/img3.gif">
 
 
-## Python
-you would need the following python 3 libraries:
+## Usage
+- Run the main script `python3 main.py`
 
-* opencv 3.4.1
-* numpy 1.16.2
-* matplotlib 3.0.3
-* and Jupyter Notebook
+## Installation
+The following fork makes of conda to avoid dirtying the environment
 
-To start, open the GeneticDrawing.ipynb and run the example code
+- Building conda environment `conda env create --name genetic-drawing --file environment.yml`
+- Starting env `conda activate genetic-drawing`
+
