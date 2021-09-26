@@ -8,7 +8,7 @@ Examples of generated images:
 
 ![](imgs/img1.gif) <img src="imgs/img2.gif" width="380">
 
-It also supports user-created sampling masks, in case you'd like to specify regions where more brushstrokes are needed (for ex, to allocate more finer details)
+It also supports user-created sampling masks, in case you'd like to specify regions where more brushstrokes are needed (for example: to allocate finer details)
 
 
 <img src="imgs/img3.gif">
