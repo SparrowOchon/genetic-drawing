@@ -18,7 +18,7 @@ It also supports user-created sampling masks, in case you'd like to specify regi
 - Run the main script `python3 main.py`
 
 ## Installation
-The following fork makes of conda to avoid dirtying the environment
+The following fork makes use of conda to avoid dirtying the environment
 
 - Building conda environment `conda env create --name genetic-drawing --file environment.yml`
 - Starting env `conda activate genetic-drawing`
